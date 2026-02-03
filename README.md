@@ -56,6 +56,7 @@ Matplotlib
 
 Requests (HTTP client)
 
+```text
 📂 Project Structure
 project-root/
 │
@@ -81,6 +82,7 @@ project-root/
 ├── sample_equipment_data.csv
 ├── equipment_report.pdf
 └── README.md
+```
 
 📄 CSV Format
 
