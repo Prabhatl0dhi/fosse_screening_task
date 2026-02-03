@@ -2,7 +2,7 @@
 
 ### Hybrid Web + Desktop Application
 
-**📌 Overview**
+** Overview**
 This project is a hybrid analytics application built as part of an internship screening task. It allows users to upload CSV files containing chemical equipment parameters, performs analysis on a Django backend, and visualizes results through two distinct frontends:
 * **Web Application:** React.js
 * **Desktop Application:** PyQt5
@@ -11,7 +11,7 @@ Both frontends communicate with the same **Django REST API**, ensuring consisten
 
 ---
 
-## 🧱 Technology Stack
+##  Technology Stack
 
 | Component | Technologies |
 | :--- | :--- |
@@ -22,10 +22,10 @@ Both frontends communicate with the same **Django REST API**, ensuring consisten
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
-📂 Project Structure
+
 project-root/
 │
 ├── backend/
@@ -54,7 +54,7 @@ project-root/
 
 ---
 
-## 📄 CSV Data Format
+##  CSV Data Format
 
 The application expects CSV files with the following headers:
 
@@ -75,7 +75,7 @@ Valve B,Valve,80,3.2,60
 
 ---
 
-## ⚙️ Key Functionality
+##  Key Functionality
 
 ### 1. Backend (Django)
 * **CSV Parsing:** Uses Pandas to compute total count, average flowrate, pressure, and temperature.
@@ -92,18 +92,10 @@ Valve B,Valve,80,3.2,60
 * **Visualization:** Charts rendered via `Matplotlib`.
 * **Auth:** Credentials are sent programmatically (no browser popup). Includes a custom modal for download feedback.
 
----
-
-## 🔐 Authentication
-
-| Endpoint | Method | Authentication Required |
-| :--- | :--- | :--- |
-| `/api/upload/` | POST | ❌ No |
-| `/api/report/` | GET | ✅ **HTTP Basic Auth** |
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Backend Setup
 ```bash
