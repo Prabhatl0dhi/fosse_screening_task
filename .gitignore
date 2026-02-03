@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+*.pyc
+db.sqlite3
+instruments.db
+equipment_report.pdf
+.env
